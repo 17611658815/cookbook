@@ -1,0 +1,25 @@
+/**app.wxss**/
+/* 
+    引入全局样式
+ */
+@import 'css/global.wxss';
+@import "templates/loading/loading.wxss";
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    background: #f8f8f8;
+}
+button::after{
+    border: none;
+}
+.reach_bottom{
+    text-align: center;
+    line-height: 80rpx;
+    font-size: 24rpx;
+    color: #626262;
+    background: #ffffff;
+}
+
